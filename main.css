@@ -9,6 +9,9 @@ body {
 #links a img {
     height: 200px;
     width: auto;
+    @media (max-width: 800px) {
+        max-width: 340px;
+    }
 }
 
 .sadrzaj {
