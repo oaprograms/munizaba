@@ -80,6 +80,9 @@ body #links a img {
     width: 600px;
     margin-bottom: 30px;
     max-width: 100%;
+    @media (max-width: 800px) {
+        margin-top: 40px;
+    }
 }
 
 .izlozba-slika1 {
