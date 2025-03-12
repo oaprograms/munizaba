@@ -78,7 +78,7 @@ body #links a img {
 .naslovna-slika {
     width: 600px;
     margin-bottom: 30px;
-
+    max-width: 100%;
 }
 
 .izlozba-slika1 {
