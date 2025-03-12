@@ -6,6 +6,11 @@ body {
     background-size: cover;
 }
 
+#links a img {
+    height: 200px;
+    width: auto;
+}
+
 .sadrzaj {
     position: absolute;
     top: 140px;
@@ -14,6 +19,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.23em;
     padding: 20px 80px;
+}
+@media (max-width: 800px) {
+  .sadrzaj {
+    padding: 15px;
+  }
 }
 
 .naslov, .meni {
