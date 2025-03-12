@@ -20,7 +20,7 @@ body {
     width: 100%;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.23em;
+    font-size: 18px;
     padding: 20px 80px;
     @media (max-width: 800px) {
         padding: 15px;
@@ -34,7 +34,7 @@ body {
 }
 
 .naslov {
-    font-size: 2.8em;
+    font-size: 24px;
     left: 40px;
     top: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -44,7 +44,7 @@ body {
     text-align: right;
     right: 30px;
     top: 22px;
-    font-size: 1.8em;
+    font-size: 21px;
     margin-left: 370px;
     @media (max-width: 800px) {
         margin: 100px 0 0;
