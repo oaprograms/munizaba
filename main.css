@@ -19,11 +19,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.23em;
     padding: 20px 80px;
-}
-@media (max-width: 800px) {
-  .sadrzaj {
-    padding: 15px;
-  }
+    @media (max-width: 800px) {
+        padding: 15px;
+    }
 }
 
 .naslov, .meni {
@@ -45,6 +43,9 @@ body {
     top: 22px;
     font-size: 1.8em;
     margin-left: 370px;
+    @media (max-width: 800px) {
+        margin: 100px 0 0;
+    }
 }
 .naslovna{
     top:0;
